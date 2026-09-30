@@ -502,7 +502,7 @@ POST /api/v1/produtos
 201 Created
 ```
 
-![Teste POST](../ProductAPI/docs/images/post-produto.png)
+![Teste POST](./ProductAPI/docs/images/post-produto.png)
 
 ---
 
@@ -520,7 +520,7 @@ GET /api/v1/produtos
 200 OK
 ```
 
-![Teste GET](../ProductAPI/docs/images/get-produtos.png)
+![Teste GET](./ProductAPI/docs/images/get-produtos.png)
 
 ---
 
@@ -538,7 +538,7 @@ GET /api/v1/produtos/{id}
 200 OK
 ```
 
-![Teste GET por ID](../ProductAPI/docs/images/get-produto-id.png)
+![Teste GET por ID](./ProductAPI/docs/images/get-produto-id.png)
 
 ---
 
@@ -556,7 +556,7 @@ PUT /api/v1/produtos/{id}
 204 No Content
 ```
 
-![Teste PUT](../ProductAPI/docs/images/put-produto.png)
+![Teste PUT](./ProductAPI/docs/images/put-produto.png)
 
 ---
 
@@ -574,7 +574,7 @@ DELETE /api/v1/produtos/{id}
 204 No Content
 ```
 
-![Teste DELETE](../ProductAPI/docs/images/delete-produto.png)
+![Teste DELETE](./ProductAPI/docs/images/delete-produto.png)
 
 ---
 
@@ -592,7 +592,7 @@ GET /api/v1/produtos/999
 404 Not Found
 ```
 
-![Teste 404](../ProductAPI/docs/images/get-404.png)
+![Teste 404](./ProductAPI/docs/images/get-404.png)
 
 ---
 
@@ -602,7 +602,7 @@ O banco Oracle foi utilizado para armazenar os dados dos produtos.
 
 A estrutura e os registros podem ser verificados através do Oracle SQL Developer.
 
-![Oracle SQL Developer](docs/images/oracle-produtos.png)
+![Oracle SQL Developer](./ProductAPI/docs/images/oracle-produtos.png)
 
 ---
 
